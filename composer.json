@@ -1,0 +1,21 @@
+{
+  "name": "dasigr/calendar",
+  "description": "A customer calendar.",
+  "license": "MIT",
+  "keywords": ["calendar"],
+  "authors": [
+    {
+      "name": "Romualdo Dasig",
+      "email": "dasig.rg@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35 || ^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dasigr\\Calendar\\": "src"
+    }
+  }
+}
